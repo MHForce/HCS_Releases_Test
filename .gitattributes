@@ -1,0 +1,6 @@
+# Set as binary, so that git does not normalize line endings
+# (Fixes ClickOnce validation issue, where git causes file hash changes.)
+
+*.manifest binary
+*.application binary
+*.deploy binary
