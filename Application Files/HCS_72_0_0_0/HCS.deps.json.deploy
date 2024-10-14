@@ -6,17 +6,17 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "HCS/1.0.0": {
+      "HCS/72.0.0.0": {
         "dependencies": {
-          "CertificateImporting": "1.0.0",
-          "ControlSystem": "1.0.0",
-          "DataExporter": "1.0.0",
-          "GeneralEventArgs": "1.0.0",
-          "Helpers": "1.0.0",
+          "CertificateImporting": "72.0.0",
+          "ControlSystem": "72.0.0",
+          "DataExporter": "72.0.0",
+          "GeneralEventArgs": "72.0.0",
+          "Helpers": "72.0.0",
           "MaterialSkin.2": "2.3.1",
           "NLog": "5.1.4",
-          "ProgramInterface": "1.0.0",
-          "SpreadsheetFunctions": "1.0.0",
+          "ProgramInterface": "72.0.0",
+          "SpreadsheetFunctions": "72.0.0",
           "System.Runtime.InteropServices.RuntimeInformation": "4.3.0",
           "System.Speech": "8.0.0-preview.3.23174.8",
           "System.Windows.Forms.DataVisualization": "1.0.0-prerelease.20110.1",
@@ -522,219 +522,220 @@
           }
         }
       },
-      "Attributes/1.0.0": {
+      "Attributes/72.0.0": {
         "runtime": {
           "Attributes.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "72.0.0",
+            "fileVersion": "72.0.0.0"
           }
         }
       },
-      "CalibrationCalcs/1.0.0": {
+      "CalibrationCalcs/72.0.0": {
         "dependencies": {
           "MathNet.Numerics": "5.0.0"
         },
         "runtime": {
           "CalibrationCalcs.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "72.0.0",
+            "fileVersion": "72.0.0.0"
           }
         }
       },
-      "CertificateImporting/1.0.0": {
+      "CertificateImporting/72.0.0": {
         "dependencies": {
           "PdfPig": "0.1.8-alpha-20230423-3898f",
-          "Utils": "1.0.0"
+          "Utils": "72.0.0"
         },
         "runtime": {
           "CertificateImporting.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "72.0.0",
+            "fileVersion": "72.0.0.0"
           }
         }
       },
-      "ControlSystem/1.0.0": {
+      "ControlSystem/72.0.0": {
         "dependencies": {
           "NLog": "5.1.4"
         },
         "runtime": {
           "ControlSystem.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "72.0.0",
             "fileVersion": ""
           }
         }
       },
-      "DataExporter/1.0.0": {
+      "DataExporter/72.0.0": {
         "dependencies": {
           "CsvHelper": "31.0.2",
-          "MaterialSkin.2": "2.3.1"
+          "MaterialSkin.2": "2.3.1",
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001"
         },
         "runtime": {
           "DataExporter.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "72.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "GeneralEventArgs/1.0.0": {
+      "GeneralEventArgs/72.0.0": {
         "dependencies": {
           "NLog": "5.1.4"
         },
         "runtime": {
           "GeneralEventArgs.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "72.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "HardwareMessageHandler/1.0.0": {
+      "HardwareMessageHandler/72.0.0": {
         "dependencies": {
-          "GeneralEventArgs": "1.0.0",
+          "GeneralEventArgs": "72.0.0",
           "NLog": "5.1.4",
           "System.IO.Ports": "8.0.0"
         },
         "runtime": {
           "HardwareMessageHandler.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "72.0.0",
+            "fileVersion": "72.0.0.0"
           }
         }
       },
-      "Helpers/1.0.0": {
+      "Helpers/72.0.0": {
         "runtime": {
           "Helpers.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "72.0.0",
+            "fileVersion": "72.0.0.0"
           }
         }
       },
-      "Meters/1.0.0": {
+      "Meters/72.0.0": {
         "dependencies": {
-          "Attributes": "1.0.0",
+          "Attributes": "72.0.0",
           "Emgu.CV.runtime.windows": "4.7.0.5276",
-          "GeneralEventArgs": "1.0.0",
-          "HardwareMessageHandler": "1.0.0",
+          "GeneralEventArgs": "72.0.0",
+          "HardwareMessageHandler": "72.0.0",
           "NLog": "5.1.4",
           "System.IO.Ports": "8.0.0",
-          "VCOMHelpers": "1.0.0"
+          "VCOMHelpers": "72.0.0"
         },
         "runtime": {
           "Meters.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "72.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "ProgramInterface/1.0.0": {
+      "ProgramInterface/72.0.0": {
         "dependencies": {
-          "Attributes": "1.0.0",
-          "CalibrationCalcs": "1.0.0",
-          "ControlSystem": "1.0.0",
-          "GeneralEventArgs": "1.0.0",
-          "Helpers": "1.0.0",
-          "Meters": "1.0.0",
+          "Attributes": "72.0.0",
+          "CalibrationCalcs": "72.0.0",
+          "ControlSystem": "72.0.0",
+          "GeneralEventArgs": "72.0.0",
+          "Helpers": "72.0.0",
+          "Meters": "72.0.0",
           "NLog": "5.1.4",
-          "UCMController": "1.0.0",
-          "VCOMHelpers": "1.0.0"
+          "UCMController": "72.0.0",
+          "VCOMHelpers": "72.0.0"
         },
         "runtime": {
           "ProgramInterface.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "72.0.0",
             "fileVersion": "0.0.0.0"
           }
         }
       },
-      "ProOpenCommands/1.0.0": {
+      "ProOpenCommands/72.0.0": {
         "dependencies": {
-          "GeneralEventArgs": "1.0.0",
-          "HardwareMessageHandler": "1.0.0",
+          "GeneralEventArgs": "72.0.0",
+          "HardwareMessageHandler": "72.0.0",
           "NLog": "5.1.4",
           "System.IO.Ports": "8.0.0",
-          "VCOMHelpers": "1.0.0"
+          "VCOMHelpers": "72.0.0"
         },
         "runtime": {
           "ProOpenCommands.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "72.0.0",
             "fileVersion": ""
           }
         }
       },
-      "SpreadsheetFunctions/1.0.0": {
+      "SpreadsheetFunctions/72.0.0": {
         "dependencies": {
           "Microsoft.Office.Interop.Excel": "15.0.4795.1001"
         },
         "runtime": {
           "SpreadsheetFunctions.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "72.0.0",
+            "fileVersion": "72.0.0.0"
           }
         }
       },
-      "StepperDrivers/1.0.0": {
+      "StepperDrivers/72.0.0": {
         "dependencies": {
-          "GeneralEventArgs": "1.0.0",
-          "HardwareMessageHandler": "1.0.0",
+          "GeneralEventArgs": "72.0.0",
+          "HardwareMessageHandler": "72.0.0",
           "NLog": "5.1.4",
           "System.IO.Ports": "8.0.0",
-          "VCOMHelpers": "1.0.0"
+          "VCOMHelpers": "72.0.0"
         },
         "runtime": {
           "StepperDrivers.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "72.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "UCMController/1.0.0": {
+      "UCMController/72.0.0": {
         "dependencies": {
-          "ControlSystem": "1.0.0",
+          "ControlSystem": "72.0.0",
           "CsvHelper": "31.0.2",
-          "GeneralEventArgs": "1.0.0",
-          "Meters": "1.0.0",
+          "GeneralEventArgs": "72.0.0",
+          "Meters": "72.0.0",
           "NLog": "5.1.4",
-          "ProOpenCommands": "1.0.0",
-          "StepperDrivers": "1.0.0",
+          "ProOpenCommands": "72.0.0",
+          "StepperDrivers": "72.0.0",
           "System.Reactive.Linq": "6.0.0-preview.13",
-          "VCOMHelpers": "1.0.0",
-          "VFDs": "1.0.0"
+          "VCOMHelpers": "72.0.0",
+          "VFDs": "72.0.0"
         },
         "runtime": {
           "UCMController.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "72.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Utils/1.0.0": {
+      "Utils/72.0.0": {
         "runtime": {
           "Utils.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "72.0.0",
+            "fileVersion": "72.0.0.0"
           }
         }
       },
-      "VCOMHelpers/1.0.0": {
+      "VCOMHelpers/72.0.0": {
         "dependencies": {
           "NLog": "5.1.4",
           "System.IO.Ports": "8.0.0"
         },
         "runtime": {
           "VCOMHelpers.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "72.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "VFDs/1.0.0": {
+      "VFDs/72.0.0": {
         "dependencies": {
-          "GeneralEventArgs": "1.0.0",
-          "HardwareMessageHandler": "1.0.0",
-          "VCOMHelpers": "1.0.0"
+          "GeneralEventArgs": "72.0.0",
+          "HardwareMessageHandler": "72.0.0",
+          "VCOMHelpers": "72.0.0"
         },
         "runtime": {
           "VFDs.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "72.0.0",
+            "fileVersion": "72.0.0.0"
           }
         }
       },
@@ -757,7 +758,7 @@
     }
   },
   "libraries": {
-    "HCS/1.0.0": {
+    "HCS/72.0.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1049,87 +1050,87 @@
       "path": "system.windows.forms.datavisualization/1.0.0-prerelease.20110.1",
       "hashPath": "system.windows.forms.datavisualization.1.0.0-prerelease.20110.1.nupkg.sha512"
     },
-    "Attributes/1.0.0": {
+    "Attributes/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CalibrationCalcs/1.0.0": {
+    "CalibrationCalcs/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CertificateImporting/1.0.0": {
+    "CertificateImporting/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ControlSystem/1.0.0": {
+    "ControlSystem/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DataExporter/1.0.0": {
+    "DataExporter/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "GeneralEventArgs/1.0.0": {
+    "GeneralEventArgs/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "HardwareMessageHandler/1.0.0": {
+    "HardwareMessageHandler/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Helpers/1.0.0": {
+    "Helpers/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Meters/1.0.0": {
+    "Meters/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ProgramInterface/1.0.0": {
+    "ProgramInterface/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ProOpenCommands/1.0.0": {
+    "ProOpenCommands/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SpreadsheetFunctions/1.0.0": {
+    "SpreadsheetFunctions/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "StepperDrivers/1.0.0": {
+    "StepperDrivers/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "UCMController/1.0.0": {
+    "UCMController/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Utils/1.0.0": {
+    "Utils/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "VCOMHelpers/1.0.0": {
+    "VCOMHelpers/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "VFDs/1.0.0": {
+    "VFDs/72.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
